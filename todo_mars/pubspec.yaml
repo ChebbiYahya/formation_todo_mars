@@ -1,0 +1,43 @@
+name: todo_mars
+description: "A new Flutter project."
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  form_field_validator: ^1.1.0
+  google_fonts: ^6.2.1
+  http: ^1.2.2
+  get: ^4.6.1
+  shared_preferences: ^2.2.3
+  jwt_decoder: ^2.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.14.3"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  image_path: "assets/logo.png"
+  min_sdk_android: 21 
+
+
+
+
+
+  flutter_lints: ^5.0.0
+
+
+flutter:
+  uses-material-design: true
+
+ 
+  assets:
+    - assets/
+  
